@@ -774,7 +774,7 @@ const Home = () => {
           <strong className="italic underline">The Last BlackOut</strong>
         </p>
       </div>
-      <div className="bg-black pb-16">
+      <div className="bg-black py-16">
         <Accordion items={faqItems} />
       </div>
       <Footer />
