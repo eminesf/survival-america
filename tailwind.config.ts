@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
+      backgroundImage: {
+        "wall-black": "url('/images/bg-wall.jpg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
