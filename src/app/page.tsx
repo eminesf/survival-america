@@ -767,6 +767,53 @@ const Home = () => {
           <br /> Ends Today!
         </button>
       </div>
+      <div className="flex flex-col items-center justify-center text-center bg-black text-white py-4 gap-4 px-48">
+        <p className="font-bold text-3xl ">
+          A Message from Teddy Daniels: Real Reviews, Real Results
+        </p>
+        <Image
+          src="/images/teddy.png"
+          width={250}
+          height={250}
+          alt="a person with solar panel"
+        />
+        <p>
+          At The Last Blackout, we stand by the fact that every review and
+          testimonial on this site comes from real people who have seen real
+          results. As someone deeply committed to protecting American families,
+          I believe in full transparency and honesty. That’s why you’ll never
+          see paid actors or fabricated stories here – our testimonials come
+          from genuine customers who’ve trusted our products to safeguard their
+          families during critical times.
+        </p>
+        <p>
+          In today’s world, trust is something you earn. When it comes to
+          emergency preparedness and ensuring food independence, I personally
+          guarantee that our customers receive products they can rely on. The
+          stories you’ll read come from people just like you – families,
+          survivalists, and patriots who have used the Survival Seed Vault to
+          prepare for whatever might come.
+        </p>
+        <p>
+          These testimonials aren’t just for marketing – they’re a reflection of
+          the lives we’ve helped, the peace of mind we’ve provided, and the
+          strength we’ve brought back to homes across America. I encourage you
+          to read these stories and see the real impact our products have had.
+        </p>
+        <p>
+          We want to hear from you! Share your experience with the Grid Doctor
+          300 Solar Generator System by sending your testimonial to
+          support@last-blackout.com. Whether it’s a review, a picture of your
+          setup, or a video showing how it’s helped your family, we’d love to
+          hear how Patriot Seeds and the Grid Doctor 300 have made a difference
+          in your life.
+        </p>
+        <p>
+          Submit your stories and photos today—let’s celebrate your journey
+          toward self-sufficiency together! Email us at
+          support@last-blackout.com
+        </p>
+      </div>
       <div className="text-center font-bold text-3xl bg-[#101212] text-white py-3">
         <p>Frequently</p>
         <p>
@@ -774,7 +821,7 @@ const Home = () => {
           <strong className="italic underline">The Last BlackOut</strong>
         </p>
       </div>
-      <div className="bg-black py-16">
+      <div className="bg-[#101212] py-10">
         <Accordion items={faqItems} />
       </div>
       <Footer />
