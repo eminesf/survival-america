@@ -62,7 +62,7 @@ const Home = () => {
 
   return (
     <div className="h-screen bg-[#242570]">
-      <div className="bg-flags-bg h-16">oi</div>
+      <div className="bg-flags-bg h-16"></div>
       <div className="bg-[#242570] text-white flex flex-col justify-center items-center">
         <p className="md:mx-20 lg:mx-44 mx-5 pt-4 text-center md:text-md text-sm md:max-w-[900px]">
           <b>American-Made, American-Priced: Free USA Shipping Today!</b> Secure
