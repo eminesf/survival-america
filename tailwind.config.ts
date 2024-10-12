@@ -13,6 +13,7 @@ const config: Config = {
       },
       backgroundImage: {
         "wall-black": "url('/images/bg-wall.jpg')",
+        "flags-bg": "url('/images/flags.png')",
       },
       colors: {
         background: "var(--background)",

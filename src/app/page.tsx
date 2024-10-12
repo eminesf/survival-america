@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Accordion from "./components/Accordion";
 import Footer from "./components/Footer";
+import "./styles.css";
 
 const Home = () => {
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
@@ -60,7 +61,8 @@ const Home = () => {
   ];
 
   return (
-    <div className="h-screen bg-blue-500">
+    <div className="h-screen bg-[#242570]">
+      <div className="bg-flags-bg h-16">oi</div>
       <div className="bg-[#242570] text-white flex flex-col justify-center items-center">
         <p className="md:mx-20 lg:mx-44 mx-5 pt-4 text-center md:text-md text-sm md:max-w-[900px]">
           <b>American-Made, American-Priced: Free USA Shipping Today!</b> Secure
@@ -97,7 +99,7 @@ const Home = () => {
         </div>
         <div className="mx-3">
           <button
-            className="bg-[#FFD200] rounded-xl border border-slate-600 py-4 md:px-16 px-8 font-semibold text-3xl hover:scale-110 ease-in-out duration-200"
+            className="bg-[#FFD200] rounded-xl animation border border-slate-600 py-4 md:px-16 px-8 font-semibold md:text-3xl text-xl ease-in-out"
             onClick={handleNavigation}
           >
             BUY NOW
@@ -251,7 +253,7 @@ const Home = () => {
       </div>
       <div className="w-full flex flex-col gap-4 justify-center items-center p-6">
         <button
-          className="bg-[#FFD200] rounded-xl border border-slate-900 py-2 md:px-8 px-8 font-semibold text-3xl hover:scale-110 ease-in-out duration-200"
+          className="bg-[#FFD200] rounded-xl border border-slate-900 py-2 md:px-8 px-8 font-semibold md:text-3xl text-xl hover:scale-110 ease-in-out duration-200 animation"
           onClick={handleNavigation}
         >
           BUY NOW
@@ -654,7 +656,7 @@ const Home = () => {
             </ul>
             <div className="flex justify-center items-center">
               <button
-                className="bg-[#FFD200] rounded-xl border border-slate-900 py-2 md:px-8 px-2 font-semibold text-3xl hover:scale-105 ease-in-out duration-200 md:max-w-[65%]"
+                className="bg-[#FFD200] rounded-xl border border-slate-900 py-2 md:px-8 px-2 font-semibold md:text-3xl text-xl hover:scale-105 ease-in-out duration-200 md:max-w-[65%] animation"
                 onClick={handleNavigation}
               >
                 BUY NOW
@@ -758,7 +760,7 @@ const Home = () => {
           alt="a person with solar panel"
         />
         <button
-          className="bg-[#FFD200] rounded-xl border border-slate-900 py-2 md:px-8 px-4 font-semibold text-3xl hover:scale-110 ease-in-out duration-200"
+          className="bg-[#FFD200] rounded-xl border border-slate-900 animation py-2 md:px-8 px-4 font-semibold md:text-3xl text-lg hover:scale-110 ease-in-out duration-200"
           onClick={handleNavigation}
         >
           BUY NOW
@@ -767,7 +769,7 @@ const Home = () => {
           <br /> Ends Today!
         </button>
       </div>
-      <div className="flex flex-col items-center justify-center text-center bg-black text-white py-4 gap-4 px-48">
+      <div className="flex flex-col items-center justify-center text-center bg-black text-white py-4 gap-4 px-4 md:px-48">
         <p className="font-bold text-3xl ">
           A Message from Teddy Daniels: Real Reviews, Real Results
         </p>
