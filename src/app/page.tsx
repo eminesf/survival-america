@@ -62,25 +62,25 @@ const Home = () => {
 
   return (
     <div className="h-screen bg-[#242570]">
-      <div className="bg-flags-bg h-16"></div>
       <div className="bg-[#242570] text-white flex flex-col justify-center items-center">
-        <p className="md:mx-20 lg:mx-44 mx-5 pt-4 text-center md:text-md text-sm md:max-w-[900px]">
+        <p className="md:mx-20 lg:mx-44 mx-2 text-center pt-4 md:text-md text-sm md:max-w-[900px]">
           <b>American-Made, American-Priced: Free USA Shipping Today!</b> Secure
           Your <b>Grid Doctor 300 Solar Generator System</b> with{" "}
           <b>Free Delivery</b> Right to Your Door + a <b>Free Ebook</b>, The
           Last Blackout! Discounted Units Are Running Out Fast, Stock is Low,
-          Final call ! ! <br />
-          <b className="md:text-xl text-lg">
-            Order Now and Be Ready for Anything!
-          </b>
+          Final call!!
+          <br />
         </p>
-        <div className="text-red-600 my-3 font-bold md:text-3xl text-xl">
+        <strong className="md:text-xl text-lg mt-2">
+          Order Now and Be Ready for Anything!
+        </strong>
+        <div className="text-red-600 md:my-3 my-1 font-bold md:text-3xl text-xl">
           {hours}h {minutes}m {seconds}s
         </div>
       </div>
 
       <div>
-        <p className="bg-[#EAB11F] text-center font-medium text-xl md:text-2xl py-2 md:py-6">
+        <p className="bg-[#EAB11F] text-center font-medium text-lg md:text-2xl py-2 md:py-6">
           Last Units With Discount – 42% Off + 2 Free Bonuses + Free USA
           Shipping Ends Today
         </p>
