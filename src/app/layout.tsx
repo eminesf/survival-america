@@ -47,10 +47,11 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <Script
+        <script
           data-render-head="true"
           src="https://static.filtripixel.io/filtripixel.minify.js?pixelId=c155bb18-a880-43c4-a92a-2e0c083e3664"
-        ></Script>
+          defer
+        ></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fontMontserratFamily.className} antialiased`}
