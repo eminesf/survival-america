@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
-import Script from "next/script";
 
 const fontMontserratFamily = Montserrat({
   weight: ["400", "700"],
